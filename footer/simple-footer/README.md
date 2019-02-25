@@ -1,1 +1,0 @@
-Footer practice following the CodeBerry guidelines.
