@@ -1,0 +1,329 @@
+/* style.css Wedding page */
+
+body {
+	margin: 0;
+	min-width: 336px;
+	width: 100vw;
+	background: url("https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png");
+	background-repeat: repeat;
+}
+
+* {
+	box-sizing: border-box;
+}
+/* Color of texts*/
+.white {
+	color: #fff;
+}
+
+.gray {
+	color: #444349;
+}
+
+.gold {
+	color: #d2ba87;
+}
+
+.container {
+	text-align: center;
+	margin: 0 auto 0 auto;
+}
+/* Font families */
+.great-vibes {
+	font-family: 'Great Vibes', cursive;
+}
+
+.libre-baskerville {
+	font-family: 'Libre Baskerville', serif;
+}
+
+.muli {
+	font-family: 'Muli', sans-serif;
+}
+/* For all headlines */
+.headline {
+	font-family: 'Great Vibes', cursive;
+	font-size: 3rem;
+	padding-top: 3rem;
+	line-height: 2rem;
+	margin-top: 0;
+	font-weight: normal;
+
+}
+
+
+/* Header */ 
+header {
+	background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center/cover;
+	display: table;
+	text-align: center;
+	height: 100vh;
+	width: 100%;
+	
+	
+}
+
+.header-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 50%;
+	padding: 1rem;
+	background-color: rgb(31, 31, 20, 0.6);
+	border-radius: 3px;
+}
+
+.names {
+	font-size: 6rem;
+	font-weight: normal;
+}
+
+.header-headline {
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.date-text {
+	letter-spacing: 2px;
+	display: inline-block;
+
+}
+
+.line {
+	color: white;
+	width: 50%;
+}
+
+.date::before, .date::after {
+	display: inline-block;
+	content: "";
+	background-color: #fff;
+	height: 1px;
+	width: 1.5rem;
+	vertical-align: middle;
+	margin: 0 .5rem;
+}
+
+
+/* === Main === */
+/* Section - Locations */
+
+
+.small-headline {
+	font-size: 2rem;
+}
+
+.location-div {
+	display: inline-block;
+	padding: 0 2rem 1rem 2rem;
+	margin: 1.2rem;
+}
+
+.locations img {
+	width: 120px;
+	margin: 1.5rem;
+}
+
+.locations p {
+	font-size: 1.126rem;
+}
+
+.location-line {
+	display: none;
+}
+
+.locations {
+	padding-bottom: 2rem;
+}
+
+/* Program section */
+
+.program {
+	background: hsla(100,0%,0%,.6); 
+}
+
+.program p {
+	font-style: italic;
+	font-size: 1.2rem;
+	text-align: left;
+}
+
+.program ul {
+	list-style: none;
+	padding: .5rem 2rem 2rem 0;
+	margin: 0;
+	text-align: left;
+	line-height: 1.5rem;
+	font-size: 1.2rem;
+}
+
+.program .headline {
+	margin-bottom: 2rem;
+}
+
+.program-times {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/* Gifts section */
+.gifts .headline {
+	margin-bottom: 2.5rem;
+}
+
+.gifts img {
+	width: 120px;
+	margin: 1.5rem;
+}
+
+.gifts {
+	padding-bottom: 2rem;
+}
+
+.gifts p {
+	font-size: 1.125rem;
+}
+
+/* Questions and answers */
+
+.qa {
+	background-color: hsla(100,0%,0%,.6);
+}
+
+.column {
+	display: inline-block;
+	width: 28%;
+	vertical-align: top;
+	margin: 1rem;
+	padding-bottom: 2rem;
+}
+
+.qa-headlines {
+	font-weight: normal;
+	margin: 2rem;
+	text-align: left;
+	margin-left: 0;
+	font-size: 1.6rem;
+}
+
+.question {
+	font-weight: bold;
+}
+
+.question, .answer {
+	font-size: 1.125rem;
+	text-align: left;
+}
+
+.answer {
+	margin-bottom: 2rem;
+}
+
+.qa a {
+	text-decoration: none;
+	color: #bd806e;
+}
+
+.qa a:hover {
+	color: #eda087;
+}
+
+/* Contact */
+.contact p {
+	padding: .5rem;
+}
+
+#mail {
+	padding-bottom: 3rem;
+	margin-bottom: 0
+}
+
+.contact a {
+	color: #bd806e;
+}
+
+.contact a:hover {
+	color: #eda087;
+}
+
+/* Footer */
+footer {
+	background-color: #606060;
+	width: 100%;
+	height: 4rem;
+}
+
+.footer-div {
+	display: table;
+	vertical-align: middle;
+}
+footer small {
+	color: #fff;
+	padding: 1.5rem 1.5rem 0 1.5rem;
+	text-align: center;
+	display: table-cell;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer small a {
+	color:#bd806e;
+}
+
+footer small a:hover {
+	color:#eda087;
+}
+
+/* Media queries */
+
+@media(max-width: 768px) {
+	.header-text {
+	width: 100%;
+	min-width: 336px;	
+	}
+
+	.location-line {
+		display: block;
+		color: #444349;
+		width: 25%;
+		border: 2px solid;
+	}
+
+	.location-div {
+		display: block;
+	}
+	
+	/* programs */
+	.program-times {
+		margin-left: 1.5rem;
+		width: 90%;
+	}
+
+	/* qa */
+
+	.column {
+		display: block;
+		width: 90%;
+		padding-bottom: .6rem;
+	}
+
+	.qa-headlines {
+		text-align: center;
+	}
+
+	.qa .line {
+		width: 40%;
+		border: 1px solid;
+		color: #d2ba87;
+	}
+
+	.qa {
+		padding-bottom: 2rem;
+	}
+
+}
