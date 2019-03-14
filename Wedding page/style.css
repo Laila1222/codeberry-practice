@@ -28,6 +28,7 @@ body {
 	text-align: center;
 	margin: 0 auto 0 auto;
 }
+
 /* Font families */
 .great-vibes {
 	font-family: 'Great Vibes', cursive;
@@ -40,6 +41,7 @@ body {
 .muli {
 	font-family: 'Muli', sans-serif;
 }
+
 /* For all headlines */
 .headline {
 	font-family: 'Great Vibes', cursive;
@@ -48,7 +50,6 @@ body {
 	line-height: 2rem;
 	margin-top: 0;
 	font-weight: normal;
-
 }
 
 
@@ -59,8 +60,6 @@ header {
 	text-align: center;
 	height: 100vh;
 	width: 100%;
-	
-	
 }
 
 .header-text {
@@ -168,7 +167,6 @@ header {
 	width: 30%;
 	margin-left: auto;
 	margin-right: auto;
-
 }
 
 /* Gifts section */
@@ -262,6 +260,7 @@ footer {
 	display: table;
 	vertical-align: middle;
 }
+
 footer small {
 	color: #fff;
 	padding: 1.5rem 1.5rem 0 1.5rem;
@@ -325,5 +324,4 @@ footer small a:hover {
 	.qa {
 		padding-bottom: 2rem;
 	}
-
 }
