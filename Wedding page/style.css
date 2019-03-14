@@ -231,6 +231,9 @@ header {
 	color: #eda087;
 }
 
+.qa-line {
+	display: none;
+}
 /* Contact */
 .contact p {
 	padding: .5rem;
@@ -315,7 +318,8 @@ footer small a:hover {
 		text-align: center;
 	}
 
-	.qa .line {
+	.qa-line {
+		display: block;
 		width: 40%;
 		border: 1px solid;
 		color: #d2ba87;
